@@ -1,4 +1,4 @@
-<img width="406" height="186" alt="image" src="https://github.com/user-attachments/assets/9b09d629-6358-4963-b343-8a9066749867" />Antes de ejecutar el proyecto es necesario completar el archivo "application.properties" con:
+Antes de ejecutar el proyecto es necesario completar el archivo "application.properties" con:
 
 - weather-api.api-key
 - spring.mail.username
