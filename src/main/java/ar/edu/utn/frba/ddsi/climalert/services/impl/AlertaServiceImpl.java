@@ -27,6 +27,7 @@ public class AlertaServiceImpl implements AlertaService {
     }
     Clima clima = ultimoRegistro.get();
 
+    System.out.println("Verificando si hay alerta...");
     if(clima.getTemperatura() > 35 && clima.getHumedad() > 60){
       Alerta alerta = new Alerta(clima, LocalDateTime.now());
       mailService.enviarAlerta(alerta);

@@ -21,5 +21,6 @@ public class AlmacenajeClimaServiceImpl implements AlmacenajeClimaService {
   public void almacenarClimaActual(){
     Clima clima = climaAdapter.obtenerClimaActual();
     climaRepository.save(clima);
+    System.out.println("Clima almacenado");
   }
 }
